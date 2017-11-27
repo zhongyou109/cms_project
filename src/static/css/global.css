@@ -1,0 +1,31 @@
+body{
+	background-color: white;
+}
+
+
+@font-face {
+    font-family: Muiicons;
+    font-weight: normal;
+    font-style: normal;
+    src: url('./iconfont.ttf') format('truetype');
+}
+
+.icon-iconfontsousuo:before { content: "\e602"; }
+
+.icon-dianying:before { content: "\e67d"; }
+
+.icon-shouye:before { content: "\e624"; }
+
+.icon-xinwen:before { content: "\e619"; }
+
+.icon-huiyuan:before { content: "\e654"; }
+
+.icon-tianqi:before { content: "\e600"; }
+
+.icon-picture:before { content: "\e673"; }
+
+.icon-shangpin1:before { content: "\e631"; }
+
+.icon-lianxidizhi:before { content: "\e65a"; }
+
+.icon-qicheqianlian-:before { content: "\e601"; }
