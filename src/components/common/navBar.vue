@@ -24,6 +24,7 @@
 <style scoped>
   .mui-bar.mui-bar-nav{
   	position: relative;
+  	background: linear-gradient(to left, green, pink);
   }
 	
 </style>

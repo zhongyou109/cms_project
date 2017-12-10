@@ -75,6 +75,7 @@
 	/*轮播图样式*/
 	.mint-swipe {
 		max-height: 187px;
+		height: 187px;
 	}
 	.mint-swipe img{
 		height: 100%;

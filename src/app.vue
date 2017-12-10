@@ -2,7 +2,7 @@
 	<div>
 		<mt-header title="生活助手"></mt-header>
 		<transition name="router" mode="out-in">
-            <router-view></router-view>
+            <router-view class="content"></router-view>
         </transition>
 		<nav class="mui-bar mui-bar-tab">
 			<router-link class="mui-tab-item" :to="{name:'home'}">
@@ -14,7 +14,7 @@
 				<span class="mui-tab-label">会员</span>
 			</router-link>
 			<router-link class="mui-tab-item" :to="{name:'shopcart'}">
-				<span class="mui-icon .icon-qicheqianlian-"><span class="mui-badge">{{pickNum}}</span></span>
+				<span class="mui-icon icon-qicheqianlian-"><span class="mui-badge">{{pickNum}}</span></span>
 				<span class="mui-tab-label">购物车</span>
 			</router-link>
 			<router-link class="mui-tab-item" :to="{name:'seach'}">
@@ -42,6 +42,9 @@
 	}
 </script>
 <style scoped>
+	.content {
+		padding-bottom: 50px;
+	}
 	.router-enter-active,.router-leave-active{
 	    transition: opacity .5s 
 	}

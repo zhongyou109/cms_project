@@ -1,5 +1,6 @@
 // (function(window, document, undefined) {
   'use strict';
+
   var jsonp = function(url, data, callback) {
     //如果页面中有了先删除
     var child=document.getElementById("my_json_cb");

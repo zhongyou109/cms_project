@@ -36,14 +36,14 @@ module.exports = {
 				}
 			},
 			{
-				test: /\.js$/,
-				exclude: /node_modules/,
-				loader: 'babel-loader',
-				options: {
+                test: /\.js$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                options: {
 					presets: ['es2015'],//关键字
 					plugins: ['transform-runtime'],//函数
 				}
-			},
+            },
 			{
 				test: /\.vue$/,
 				loader: 'vue-loader',
