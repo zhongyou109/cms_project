@@ -40,7 +40,7 @@
 		                </router-link>
 		            </li>
 		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-		            	<router-link :to="{name:'weather'}">
+		            	<router-link :to="{name:'address'}">
 		                    <span class="mui-icon mui-icon-phone"></span>
 		                    <div class="mui-media-body">通讯录</div>
 		                </router-link>
@@ -64,9 +64,9 @@
 	  //         that.subjects = data.subjects;
 	  //       });
 	  		this.subjects = [
-	  							'/src/static/imgs/swipe/01.jpg',
-	  							'/src/static/imgs/swipe/02.jpg',
-	  							'/src/static/imgs/swipe/03.jpg',
+	  							'../src/static/imgs/swipe/01.jpg',
+	  							'../src/static/imgs/swipe/02.jpg',
+	  							'../src/static/imgs/swipe/03.jpg',
 	  						];
 		}
 	}

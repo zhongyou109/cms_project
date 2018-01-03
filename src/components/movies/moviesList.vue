@@ -8,7 +8,7 @@
 					<div class="mui-media-body">
 						<span v-text="item.title"></span>
 						<div class='movies-des'>
-							<p>导演：{{item.directors[0].name}}</p>
+							<p>导演：{{item.directors[0] ? item.directors[0].name : ''}}</p>
 							<p>发布年份：{{item.year}}</p>
 						</div>
 					</div>
